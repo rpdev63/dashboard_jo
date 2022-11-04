@@ -63,7 +63,8 @@ h1 {
 }
 
 
-#dd-output-container {
+#dd-output-container,
+#top10-output-container {
 
     max-width: 1200px;
     padding: 2px 30px;
@@ -71,8 +72,14 @@ h1 {
     box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, 0.25);
 }
 
+#top10-output-container {
+    margin-top: 50px;
+}
+
+
 footer {
     font-size: 1.7rem;
     margin-top: 60px;
+    margin-bottom: 35px;
 
 }
